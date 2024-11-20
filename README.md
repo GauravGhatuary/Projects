@@ -16,6 +16,14 @@ The population estimate model worked best when using a multi-layer LSTM architec
 
 The model was trained upon progressive timeseries of demographic features, that is data for all previous years was considered as input features, and target was set as population growth for 5th and 10th year from the last year in the dataset.
 
+## PCB Defect
+This is a project to identify and classify the various types of defects that occur in Printed Circuit Boards.## Population  Estimate Model
+https://www.kaggle.com/code/gauravghatuary/pcb-defecthttps://www.kaggle.com/code/gauravghatuary/pcb-defect
+
+The population estimate model worked best when using a multi-layer LSTM architecture, that takes multiple demographic features as input, and can produce prediction for future population with mean error rate of 2% for 5 years into future and 5% for 10 years in future.
+
+The population estimate model worked best when using a multi-layer LSTM architecture, that takes multiple demographic features as input, and can produce prediction for future population with mean error rate of 2% for 5 years into future and 5% for 10 years in future.
+
 
 ## Predictive Maintainance Milling Machine
 This is a project to predict the failures in milling machine taken from a  Kaggle dataset-'https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020'
