@@ -20,7 +20,7 @@ The model was trained upon progressive timeseries of demographic features, that 
 This is a project to identify and classify the various types of defects that occur in Printed Circuit Boards.
 Our goal was to to detect the type of defect as well locate the defect given an image of PCB, for which we trained our datset on YOLO11 model from Ultralytics, and after fine-tuning on our datset, we achieved a Mean Average Precision score of 98%.
 
-Link to the data:https://www.kaggle.com/code/gauravghatuary/pcb-defecthttps://www.kaggle.com/code/gauravghatuary/pcb-defect
+Link to the notebook:https://www.kaggle.com/code/gauravghatuary/pcb-defecthttps://www.kaggle.com/code/gauravghatuary/pcb-defect
 
 
 
