@@ -27,4 +27,5 @@ Link to the notebook:https://www.kaggle.com/code/gauravghatuary/pcb-defecthttps:
 
 ## Predictive Maintainance Milling Machine
 This is a project to predict the failures in milling machine taken from a  Kaggle dataset-'https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020'
-Since the failures were rare , the dataset was balanced using oversampling techniques from Imbalanced-learn package.The model utilized Tree-based Ensemble Boosting techniques to make the prediction for each type of failure.
+Since the failures were rare , the dataset was balanced using oversampling techniques from Imbalanced-learn package.The model utilized Tree-based Ensemble Boosting techniques like Adaboost and XGBoost to make the prediction for each 5 types of failure, and for all types of failure except one F1-Score was above 0.9.
+
