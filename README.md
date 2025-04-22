@@ -1,4 +1,16 @@
 # Data Science Projects
+
+## Brain  Harmful Brain Activity Classification
+This project is based on the Kaggle competetion to detect and classify seizures and other types of harmful brain activity: https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification
+
+Here the main goal is to develop a model trained on electroencephalography (EEG) signals recorded from critically ill hospital patients.
+
+Since the EEG signals contained a set of signals from different part of the brain over a timespan of 50 secs, a Convolution layer along with LSTM seemed promising.
+The best model was achieved by using a set of different convolution filter lengths to extract temporal data which were concatenated before passing through a set of Residual connection blocks of 1D convolution layers, and using the extracted features along with LSTM features to predict 6 different kinds  of brain activity.
+
+The best Kullback Leibler Divergence Loss achieved was 0.78.
+
+
 ## Twitter Sentiment Analysis
 This is a project to analyze Twitter sentiments based on real-world tweets.The data has been taken from 'Tweet Sentiment Extraction' -a Kaggle competition 'https://www.kaggle.com/competitions/tweet-sentiment-extraction'.
 
